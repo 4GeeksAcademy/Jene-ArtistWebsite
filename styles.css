@@ -266,23 +266,6 @@ h1 {
   z-index: 1;
 }
 
-.piece-image-link {
-  position: absolute;
-  inset: 0;
-  display: block;
-}
-
-.piece img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.45s ease;
-}
-
-.piece:hover img,
-.piece:focus-within img {
-  transform: scale(1.04);
-}
 
 .piece-copy {
   position: relative;
