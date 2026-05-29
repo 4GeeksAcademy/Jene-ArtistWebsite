@@ -247,10 +247,6 @@ h1 {
   gap: 1rem;
 }
 
-.gallery .piece {
-  color: #fff;
-}
-
 .piece {
   position: relative;
   border-radius: 24px;
@@ -275,6 +271,7 @@ h1 {
 .piece-copy {
   position: relative;
   z-index: 1;
+  color: #fff;
   pointer-events: none;
 }
 
